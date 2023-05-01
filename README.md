@@ -28,9 +28,9 @@ The exact design of your webpage is up to you, but it should include the followi
 - Simlar to previous homeworks, at the top of the page, title your page and add your name and email.
 - You'll need an SVG to hold your chart. The size should be between 900 x 600 and 2048 x 1080.
 - You'll also need a control panel to hold the HTML elements for manipulating your visualization. The control panel should have the following controls (with text labels):
-    - **Country Selection:**: Under this Country Selection your five selected countries are displayed to show the selected country health data for the selected attributes.
-    - **Heath Attributes:**: Choose any four Health or any different category attributes. In this example I choose four health attributes.
-    - **Health Data Summary:**: Under the Health Data Summary show the average of the choosen attributes data for the selected country, this average calculated data return from script.
+    - **Country Selection:** Under this Country Selection your five selected countries are displayed to show the selected country health data for the selected attributes.
+    - **Health Attributes:** Choose any four Health or any different category attributes. In this example I choose four health attributes.
+    - **Health Data Summary:** Under the Health Data Summary show the average of the choosen attributes data for the selected country, this average calculated data return from script.
    
 My suggestion is to place these elements in a control panel area, either to the side of the chart or above or below it, so they can be organized in a way that makes sense. Controls should use consistent styling/theme. Feel free to use Bootstrap or custom CSS to do this.
 

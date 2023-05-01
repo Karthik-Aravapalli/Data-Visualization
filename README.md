@@ -47,7 +47,7 @@ Import the two CSV files into your page: the CORGIS `global_development.csv` fil
 
 ## Step 3: Stacked Area chart encodings
 The default encodings for your area chart should be the following:
-- The x-axis will be bottom aligned, and the y-axis will be left-aligned. The x-axis should go from 1990-2013. The y-axis will go from 0 to the max value of the currently selected global development attribute, based on the current selected country.
+- The x-axis will be bottom aligned, and the y-axis will be left-aligned. The x-axis should go from 1980-2013. The y-axis will go from 0 to the max value of the currently selected global development attribute, based on the current selected country.
 - For each selected country, draw the stacked area chart for the choosen global development attributes. The y- axis has to change when a country is selected based on the maximum value of the attributes.
 
 When your page initially loads, it's up to you whether you want the chart to be blank (i.e., no regions selected), or pre-populated with data.

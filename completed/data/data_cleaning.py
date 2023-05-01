@@ -13,5 +13,5 @@ df = df.rename(columns={"Country": "country",
 
 renamed_df = df[["country", "year", "Birth_Rate", "Death_Rate", "Fertility_Rate", "Population_Growth"]]
 
-# Save the updated dataframe to a new CSV file
+# Save the updated dataframe to a new CSV file on global_development
 renamed_df.to_csv("C:\\Users\\karavapa\\Documents\\DV\\extra-credit-karavapa\\completed\\data\\global_development.csv", index=False)

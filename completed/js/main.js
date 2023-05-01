@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Load the data from csv
   d3.csv("data/global_development.csv").then( function(value) {
     keys = value.columns.slice(2)
-    console.log(keys);
+    //console.log(keys);
 
     value.forEach(element => {
       data.push({
@@ -41,8 +41,8 @@ document.addEventListener('DOMContentLoaded', function () {
       .domain(keys)
       .range(d3.schemeSet2);
 
-    console.log('data',data);
-    console.log('len', data.length);
+    //console.log('data',data);
+    //console.log('len', data.length);
 
     update_stack('Canada');
   })
@@ -51,8 +51,8 @@ document.addEventListener('DOMContentLoaded', function () {
 function update_stack(selected)
 { 
   svg.selectAll("*").remove();
-  console.log('selected',selected);
-  console.log('len of data',data.length);
+  //console.log('selected',selected);
+  //console.log('len of data',data.length);
   filter=[];
   for(i=0;i<data.length;i++){
     if(data[i].country == selected){
@@ -67,7 +67,7 @@ function update_stack(selected)
       })
     }
   }
-  console.log('filtedred data', filter);
+  //console.log('filtedred data', filter);
   draw(filter,selected);
 }
 
@@ -103,14 +103,14 @@ function draw(data,selected)
   var maximum = d3.max(data, function(d) {
     return d.Birth_Rate + d.Death_Rate + d.Fertility_Rate + d.Population_Growth;
   });
-  console.log('maximum',maximum);
+  //console.log('maximum',maximum);
 
   //stack the data?
   var stackedData = d3.stack()
     .keys(keys)
     (data)
 
-  console.log('stack data', stackedData);
+  //console.log('stack data', stackedData);
 
   var x = d3.scaleLinear()
     .domain(d3.extent(data, function(d) { return d.year; }))
@@ -160,13 +160,13 @@ function draw(data,selected)
   var areaChart = svg.append('g')
     .attr("clip-path", "url(#clip)")
 
-  // Area generator
+  // Area loading
   var area = d3.area()
     .x(function(d) { return x(d.data.year); })
     .y0(function(d) { return y(d[0]); })
     .y1(function(d) { return y(d[1]); })
 
-  // Show the areas
+  // Show the areas loaded
   areaChart
     .selectAll("mylayers")
     .data(stackedData)
@@ -176,7 +176,7 @@ function draw(data,selected)
     .attr("d", area)
     
 
-  // Add the brushing
+  // Add brushing
   areaChart
     .append("g")
     .attr("class", "brush")

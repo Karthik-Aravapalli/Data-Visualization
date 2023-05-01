@@ -8,8 +8,7 @@ In this homework, you'll apply knowledge about D3 Interactions and joins to crea
 
 The screenshot below shows an example of what your finished interface will look like.
 
-![extra_credit_image](https://user-images.githubusercontent.com/122834411/235527929-d4834328-2c55-4b2b-be49-eec2dcacbd35.gif)
-
+![alt text](https://github.com/Karthik-Aravapalli/extra-credit-karavapa/blob/main/images/extra_credit_image.gif)
 
 ## Overview
 

@@ -20,6 +20,7 @@ The starter code for this assignment is given in the template folder named as `i
 
 ## Step 1: Create your dataset and initial webpage
 
+![alt text](https://github.com/Karthik-Aravapalli/extra-credit-karavapa/blob/main/images/Control_Panel_Image_1.JPG)
 
 Download the Global Development dataset from the [CORGIS website](https://corgis-edu.github.io/corgis/csv/) and pick four health attributes that you would like to visualize.
 
@@ -53,6 +54,8 @@ When your page initially loads, it's up to you whether you want the chart to be 
 
 ## Step 4: Stacked chart interactions
 
+![alt text](https://github.com/Karthik-Aravapalli/extra-credit-karavapa/blob/main/images/Full_Image_1.JPG)
+
 Based on the user interacting with the control panel, your chart should perform the following actions:
 - **Selecting a Country**: If the user selected a new country by clicking/checking it on the control panel, you will reload the data to have the selected country data and re-draw the stacked area chart. In doing this, you might also need to adjust your y-axis (in the case that the new country has the new max value for the y-axis). Follow this sequence of actions when selecting a new country from the choosen five countries.
 - **Changing the y-attribute:** If the y-attribute is changed, you'll need to transition the y-scale's domain based on the new attribue. Compute the new max for the current selected country in the chart, and transition both the y-axis and the area based on this scale. (This transition should look like the axis transitions you might do in the "add a new country" and the "changing a country" steps.)
@@ -60,6 +63,8 @@ Based on the user interacting with the control panel, your chart should perform 
 
 
 ## Step 5: Extra credit opportunities
+
+![alt text](https://github.com/Karthik-Aravapalli/extra-credit-karavapa/blob/main/images/Full_Image_2.JPG)
 
 There are ways you can potentially receive extra credit for this assignment:
 

@@ -61,7 +61,7 @@ There are ways you can potentially receive extra credit for this assignment:
 
 Your webpage should get the computed average values from the javascript -
 
-- **Return Health Data Summary:** When a user selectes a country in a control panel script should return the average values of the choosen global data attributes and this average values needs to be displayed in the control panel under the Return Health Data Summary same as the above picture. 
+- **Return Health Data Summary:** When a user selectes a country in a control panel script should return the average values of the choosen global data attributes and this average values needs to be displayed in the control panel under the Return Health Data Summary same as the above picture. (+1) 
 
 - Your webpage and visualization is designed/styled in an attractive way that the grader likes. Note that this E.C. opportunity is not applicable for a grade appeal. (+1)
 

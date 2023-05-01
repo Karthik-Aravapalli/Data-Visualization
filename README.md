@@ -1,10 +1,10 @@
 # Homework #Extra Credit: D3 Joins and Interactions
 
-In this homework, you'll apply knowledge about D3 Interactions and joins to create a Stacked Are Chart that interactively updates as countries for the dataset are changed. By the end of this assignment you should be able to:
+In this homework, you'll apply knowledge about D3 Interactions and joins to create a Stacked Area Chart that interactively updates as countries for the dataset are changed. By the end of this assignment you should be able to:
 
 - Download the Global Development dataset (`global_development.csv`) from the CORGIS website for use in your visualization. Select four Health attributes of interest that you want to visualize.
 - Display a stacked area chart on your webpage that shows a user-selected country over the dataset's time range of 1980-2013.
-- Using HTML controls, the user can change (1) which country shown in the stacked area chart.
+- Using HTML controls, the user can change (1) which country is shown in the stacked area chart.
 
 The screenshot below shows an example of what your finished interface will look like.
 
@@ -12,7 +12,7 @@ The screenshot below shows an example of what your finished interface will look 
 
 ## Overview
 
-The starter code for this assignment is given in the template folder named as `index.html`. This starter code is just basic HTML code to show the homeworm name and name of the student and details. Please continue to develop the code as per the given following steps to complete the homework.
+The starter code for this assignment is given in the template folder named as `index.html`. This starter code is just basic HTML code to show the homework name and name of the student and details. Please continue to develop the code as per the given following steps to complete the homework.
 
 ## Step 1: Create your dataset and initial webpage
 
@@ -29,8 +29,8 @@ The exact design of your webpage is up to you, but it should include the followi
 - You'll need an SVG to hold your chart. The size should be between 900 x 600 and 2048 x 1080.
 - You'll also need a control panel to hold the HTML elements for manipulating your visualization. The control panel should have the following controls (with text labels):
     - **Country Selection:** Under this Country Selection your five selected countries are displayed to show the selected country health data for the selected attributes.
-    - **Health Attributes:** Choose any four Health or any different category attributes. In this example I choose four health attributes.
-    - **Health Data Summary:** Under the Health Data Summary show the average of the choosen attributes data for the selected country, this average calculated data return from script.
+    - **Health Attributes:** Choose any four Health or any different category attributes. In this example I chose four health attributes.
+    - **Health Data Summary:** Under the Health Data Summary, show the average of the choosen attributes data for the selected country. You need to compute this average based on the selected data in Javascript.
    
 My suggestion is to place these elements in a control panel area, either to the side of the chart or above or below it, so they can be organized in a way that makes sense. Controls should use consistent styling/theme. Feel free to use Bootstrap or custom CSS to do this.
 
@@ -59,11 +59,11 @@ Based on the user interacting with the control panel, your chart should perform 
 
 There are ways you can potentially receive extra credit for this assignment:
 
-Your webpage should get the computed average values from the java script -
+Your webpage should get the computed average values from the javascript -
 
-- **Return Health Data Summary:** When a user selectes a country in a control panel script should return the average values of the choosen global data attributes and this average values needs to be deiplayed in the control panel under the Return HEalth DAta Summary same as the above picture. 
+- **Return Health Data Summary:** When a user selectes a country in a control panel script should return the average values of the choosen global data attributes and this average values needs to be displayed in the control panel under the Return Health Data Summary same as the above picture. 
 
-- Your webpage and visualization is designed/styled in an especially attractive way that the grader likes. Note that this E.C. opportunity is not applicable for a grade appeal. (+1)
+- Your webpage and visualization is designed/styled in an attractive way that the grader likes. Note that this E.C. opportunity is not applicable for a grade appeal. (+1)
 
 ## Grading
 

@@ -6,6 +6,10 @@ In this homework, you'll apply knowledge about D3 Interactions and joins to crea
 - Display a stacked area chart on your webpage that shows a user-selected country over the dataset's time range of 1980-2013.
 - Using HTML controls, the user can change (1) which country is shown in the stacked area chart.
 
+## Dataset Description
+
+The global_development.csv dataset contains information on various economic, social, and demographic indicators for countries around the world. The data covers a wide range of topics, including population, GDP, education, health, energy, and environment. The dataset includes data from various sources, such as the World Bank, United Nations, and World Health Organization, and covers a period of several decades. The dataset can be used for various analyses and visualizations related to global development and socio-economic trends across countries.
+
 The screenshot below shows an example of what your finished interface will look like.
 
 ![alt text](https://github.com/Karthik-Aravapalli/extra-credit-karavapa/blob/main/images/extra_credit_image.gif)
